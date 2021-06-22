@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Page Title</title>
+  <meta charset="UTF-8">
+  <title>Rock, Paper Scissors</title>
   <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <h1>Rock, Paper, Scissors</h1>
+  <h2>Choose your fighter!</h2>
+  <div class = "weapons">
+    <div id='rock' class="weapon">
+      <span class='text'>Rock</span>
+      <img src='images/rock.png' class='icon'>
+    </div>
+    <div id='paper' class="weapon">
+      <span class ='text'>Paper</span>
+      <img src='images/paper.jpg' class='icon'>
+    </div>
+    <div id='scissors' class="weapon">
+      <span class ='text'>Scissors</span>
+      <img src='images/scissors.png' class='icon'>
+    </div>
+  </div>
+  <div class="scores">
+    <span class='score' id='you'></span>
+    <span class='score' id='computer'></span>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>

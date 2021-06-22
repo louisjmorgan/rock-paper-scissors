@@ -1,0 +1,75 @@
+html {
+    font-size: 10px;
+    background-color: black;
+    background-size: cover;
+  }
+  
+body,html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: white;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 5rem;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 5rem;
+}
+
+.weapons {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.weapon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: .4rem solid white;
+    border-radius: .5rem;
+    margin: 1rem 3rem;
+    padding: 1rem .5rem;
+    transition: all 0.07s ease;
+    width: 30rem;
+    height: 30rem;
+    color: white;
+}
+
+.weapon:hover {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+.text {
+  padding: 1.5rem;
+  font-size: 3rem;
+}
+
+.icon {
+  padding: 1.5 rem;
+  width: 20rem;
+  height: 20rem;
+}
+
+.scores {
+  font-size: 3rem;
+  margin: 3rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.score {
+  margin: 1rem;
+}
